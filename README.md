@@ -1,6 +1,6 @@
 # Tidebound test builds
 
-Download the newest zip from [Releases](https://github.com/Toms-Berzins/Tidebound-builds/releases).
+Newest build: **[Windows](https://github.com/Toms-Berzins/Tidebound-builds/releases/latest/download/Tidebound-windows.zip)** · **[Linux](https://github.com/Toms-Berzins/Tidebound-builds/releases/latest/download/Tidebound-linux.zip)** (older ones under [Releases](https://github.com/Toms-Berzins/Tidebound-builds/releases)).
 
 **Windows 10/11:** unzip and run `Tidebound.exe`. Windows shows "Windows protected your PC" because the
 game isn't signed: click **More info → Run anyway**. If it won't start, run `Tidebound.console.exe`
