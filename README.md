@@ -30,8 +30,8 @@ No Mac, ARM or 32-bit builds.
 **Running slowly?** Open **Settings → Video** (in the main menu, or **Esc** during a voyage):
 - **Resolution** to Performance, and **Anti-aliasing** lower.
 - **Graphics** to **Low (OpenGL)** for older or integrated graphics, or a GPU without Vulkan. It
-  uses about half the GPU time of Standard, but looks plainer: no ambient occlusion, no cloud
-  shadows on the trees, paler trees and darker grass. Picked in the main menu, the game restarts
+  uses about half the GPU time of Standard and looks close to it, a little plainer: no ambient
+  occlusion (harder shadows under the trees), no cloud shadows on the trees, deeper blue water. Picked in the main menu, the game restarts
   on it at once; picked during a voyage, it applies from the next start.
 
 **Controls:** the cursor says what a left click does there (walk, gather, fell, open, board...), so
