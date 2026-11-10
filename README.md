@@ -21,19 +21,25 @@ Estimates: so far the game has only been tested on a GTX 1070 with a Ryzen 5 260
 |---|---|---|
 | OS | Windows 10/11 64-bit, or 64-bit Linux | Linux |
 | CPU | 4 cores / 8 threads, about 2017 or newer (Ryzen 5 1600, Core i5-8400) | Ryzen 5 2600X |
-| Graphics | Vulkan support, 2 GB VRAM (GTX 960 / 1050, RX 470) | GTX 1070 |
+| Graphics | Vulkan support, 2 GB VRAM (GTX 960 / 1050, RX 470); with Graphics: Low, any GPU with OpenGL 3.3 | GTX 1070 |
 | RAM | 4 GB (8 GB recommended) | uses about 1 GB |
 | Disk | about 200 MB | |
 
-No Mac, ARM or 32-bit builds. Running slowly? In the main menu open **Settings → Video** and set
-**Resolution** to Performance and **Anti-aliasing** lower.
+No Mac, ARM or 32-bit builds.
+
+**Running slowly?** Open **Settings → Video** (in the main menu, or **Esc** during a voyage):
+- **Resolution** to Performance, and **Anti-aliasing** lower.
+- **Graphics** to **Low (OpenGL)** for older or integrated graphics, or a GPU without Vulkan. It
+  uses about half the GPU time of Standard, but looks plainer: no ambient occlusion, no cloud
+  shadows on the trees, paler trees and darker grass. Picked in the main menu, the game restarts
+  on it at once; picked during a voyage, it applies from the next start.
 
 **Controls:** the cursor says what a left click does there (walk, gather, fell, open, board...), so
 most things are a click.
 - WASD walk or sail · Shift jog · E land, dock, board, or call a castaway over
 - C or a click on the camp or dock: its window · B build (shelter on a new island) · V what you carry
 - F the fire by a camp, eat aboard · 1-6 your tool belt · Z mark a work area · J work areas · K known ways
-- Right click lets go of what's in hand · Alt shows the whole HUD for a moment
+- Right click or Esc lets go of what's in hand · Esc with nothing in hand: Settings and Quit · Alt shows the whole HUD for a moment
 - Mouse wheel zoom · middle-drag pan · Q/R turn the view · Space re-centre · Tab game speed
 
 **Reporting a bug:** include the "world N" number shown at the top of the screen, your graphics card,
